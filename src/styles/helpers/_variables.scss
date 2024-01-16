@@ -1,0 +1,37 @@
+$default-font-color: #000000;
+$base_font: sans-serif;
+$accent_font_inter_extra: "Inter-ExtraBold", $base_font;
+$accent_font_inter_reg: "Inter-Regular", $base_font;
+$accent_font_tt_bold: "TTFirsNeueBold", $base_font;
+$accent_font_tt_med: "TTFirsNeueMedium", $base_font;
+$accent_font_tt_reg: "TTFirsNeueRegular", $base_font;
+
+$color_black: #000000;
+$color_dgray: #5A5C69;
+$color_white: #ffffff;
+$color_gray: #a1a1a1;
+$color_yellow: #ffd131;
+$color_red: #ea2b2a;
+
+$body_width: 1920px;
+
+$breaks: (
+  desktop_lg: 1600px,
+  desktop: 1440px,
+  laptop: 1380px,
+  tablet: 1100px,
+  tablet_md: 1024px,
+  mobile: 768px,
+  mobile_sm: 575px,
+  mobile_xs: 479px,
+  mobile_xxs: 375px,
+);
+
+$container: (
+  desktop_lg: 1400px,
+  desktop: 1140px,
+  laptop: 1024px,
+  tablet: 768px,
+  mobile: 345px,
+  mobile_xs: 280px,
+);

@@ -1,0 +1,17 @@
+@import "main-bx";
+
+.header {
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items:center;
+  box-sizing: border-box;
+  @media (max-width: 1000px) {
+    padding: 10px;
+  }
+}
+
+.click {
+  cursor:pointer;
+}

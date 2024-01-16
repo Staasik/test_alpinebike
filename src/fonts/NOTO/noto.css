@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    src: url('Inter-ExtraBold.TTF') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter-Regular';
+    src: url('Inter-Regular.TTF') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'с';
+    src: url('TTFirsNeueBold.TTF') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TTFirsNeueMedium';
+    src: url('TTFirsNeueMedium.TTF') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'TTFirsNeueRegular';
+    src: url('TTFirsNeueRegular.TTF') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }

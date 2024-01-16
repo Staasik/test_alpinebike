@@ -1,0 +1,180 @@
+@import "main-bx";
+
+.mount_item {
+  display: flex;
+  width: 332px;
+  align-items: flex-start;
+
+  &-click {
+    display: flex;
+    width: 332px;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+  }
+
+  &__boxitem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__box {
+    display: flex;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(16px);
+    flex-direction: column;
+    width: 220px;
+
+    &-click {
+      display: flex;
+      padding: 8px 12px;
+      box-sizing: border-box;
+      border-radius: 10px 10px 10px 0px;
+      background: #fff;
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+      backdrop-filter: blur(16px);
+      flex-direction: column;
+      width: 220px;
+    }
+  }
+
+  &__text {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: $color_white;
+    font-family: $accent_font_inter_reg;
+
+    &-click {
+      font-size: 10px;
+      text-transform: uppercase;
+      color: $color_black;
+      font-family: $accent_font_inter_reg;
+    }
+  }
+
+  &__title {
+    font-size: 22px;
+    color: $color_white;
+    font-family: $accent_font_inter_extra;
+
+    &-click {
+      font-size: 22px;
+      color: $color_black;
+      font-family: $accent_font_inter_extra;
+    }
+  }
+  
+  &__arrow {
+    display: block;
+
+    &-click {
+      display: none;
+    }
+  }
+
+  &__description {
+    display: flex;
+    width: 332px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(16px);
+    flex-direction: column;
+    gap: 12px;
+
+    &__text {
+      font-size: 14px;
+      color: $color_white;
+      font-family: $accent_font_tt_reg;
+    }
+
+    &__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 24px;
+      font-size: 16px;
+      width: 230px;
+      color: $color_white;
+      font-family: $accent_font_tt_med;
+      padding: 8px 30px;
+      border-radius: 50px;
+      border: 1px solid $color_white;
+      gap: 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+.mount_item, .mount_item-click {
+  position: relative;
+  cursor: pointer;  
+  @media (max-width: 1400px) {
+    display: none;
+  }
+}
+.mount_item-click {
+  z-index: 999;
+}
+
+.iFinsteraarhorn {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+}
+
+.iTödi {
+  position: absolute;
+  top: 12%;
+  left: 24%;
+}
+
+.iDammastock {
+  position: absolute;
+  top: 22%;
+  left: 15%;
+}
+
+.iAlpstein-Altmann {
+  position: absolute;
+  top: 9%;
+  left: 33%;
+}
+
+.iAlpstein-Säntis {
+  position: absolute;
+  top: 14%;
+  left: 47%;
+}
+
+.iRigi {
+  position: absolute;
+  top: 32%;
+  left: 43%;  
+}
+
+.iF1HD {
+  position: absolute;
+  top: 16%;
+  left: 60%;
+}
+
+.iChasseral {
+  position: absolute;
+  top: 16%;
+  left: 68%;
+}
+
+.iCosta {
+  position: absolute;
+  top: 22%;
+  left: 79%;
+}

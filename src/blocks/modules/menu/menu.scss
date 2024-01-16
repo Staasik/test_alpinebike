@@ -1,0 +1,51 @@
+@import "main-bx";
+
+.menu {
+  width: 63%;
+  display: flex;
+  padding-bottom: 60px;
+  gap:6px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  @media (max-width: 1880px) {
+    width: 70%;
+  }
+  @media (max-width: 1700px) {
+    width: 75%;
+  }
+  @media (max-width: 1580px) {
+    width: 80%;
+  }
+  @media (max-width: 1485px) {
+    width: 85%;
+  }
+  @media (max-width: 1400px) {
+    padding-bottom: 40px;
+    width: 90%;
+    overflow-x: auto; /* Добавляем полосу прокрутки при необходимости */
+  }
+  
+  .menu::-webkit-scrollbar {
+    display: none; /* Скрываем полосу прокрутки для браузеров на основе Chromium */
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+    min-width: 113.6px;
+    font-size: 12px;
+    color: $color_black;
+    font-family: $accent_font_tt_med;
+    text-transform: uppercase;
+    padding: 16px 18px;
+    background-color: $color_white;
+    cursor: pointer;
+    box-sizing:border-box;
+    @media (max-width: 1250px) {
+      min-width: 150px;
+    }
+  }
+
+}
